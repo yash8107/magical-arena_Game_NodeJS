@@ -53,9 +53,9 @@ exports.initializeGame = (playerAData, playerBData) => {
             turn = 'A';
         }
     }
+    //winner
+    const winner = playerA.health > 0 ? 'Player A' : 'Player B'; 
 
-    const winner = playerA.health > 0 ? 'Player A' : 'Player B'; // Determine the winner
-
-    gameResult.push(`${winner} wins!`); // Log the winner
-    return gameResult; // Return the game log
+    gameResult.push(`${winner} wins!`); 
+    return gameResult;
 };

@@ -1,8 +1,32 @@
 # magical-arena_Game_NodeJS
 
-To run the code `npm i`
+### Installation
 
-then,
+1. Clone the repository
+    `git clone <repository-url>`
 
-run `npm start`
+2. Install the dependencies
+    `npm install`
 
+### Running the Application
+
+To start the server, run:
+`npm start`
+
+output:->
+![postman output](image.png)
+
+postman JSON data:
+
+{
+  "playerA": {
+    "health": 50,
+    "strength": 5,
+    "attack": 10
+  },
+  "playerB": {
+    "health": 100,
+    "strength": 10,
+    "attack": 5
+  }
+}
