@@ -14,9 +14,7 @@ To start the server, run:
 `npm start`
 
 output:->
-![postman output](image.png)
-
-postman JSON data:
+postman collection JSON data:
 
 {
   "playerA": {
@@ -30,3 +28,5 @@ postman JSON data:
     "attack": 5
   }
 }
+
+![postman output](image.png)
